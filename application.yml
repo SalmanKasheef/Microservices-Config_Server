@@ -7,4 +7,14 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
       instance:
         hostname: localhost
-      
+
+spring:      
+   datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: Welcome123$
+      url: jdbc:mysql://localhost:3306/Restaurant_Services
+   jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
